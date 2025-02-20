@@ -11,8 +11,8 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrowsExactly;
+import static org.junit.jupiter.api.Assertions.*;
+
 @Execution(ExecutionMode.CONCURRENT)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class CalculatorTests {
