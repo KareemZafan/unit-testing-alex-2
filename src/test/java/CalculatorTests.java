@@ -119,7 +119,7 @@ public class CalculatorTests {
         assertEquals(13, calc.getSquareRoot(169));
         assertEquals(12, calc.getSquareRoot(144));
         assertEquals(25, calc.getSquareRoot(625));
-        assertNotEquals(0, calc.getSquareRoot(0));
+        assertEquals(0, calc.getSquareRoot(0));
 
     }
 
